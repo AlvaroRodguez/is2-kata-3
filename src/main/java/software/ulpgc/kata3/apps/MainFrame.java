@@ -1,4 +1,4 @@
-package software.ulpgc.kata2.apps;
+package software.ulpgc.kata3.apps;
 
 import software.ulpgc.kata3.architecture.view.BarchartDisplay;
 import software.ulpgc.kata3.architecture.control.Command;
@@ -39,7 +39,6 @@ public class MainFrame extends JFrame {
 
     private Component selector() {
         JComboBox<String> comboBox = new JComboBox<>();
-        comboBox.addItem("Movies by year");
         comboBox.addItem("Movies by duration");
         comboBox.addItem("Movies from 1850-1900");
         comboBox.addItem("Movies from 1901-1950");
